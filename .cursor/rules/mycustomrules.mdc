@@ -1,0 +1,15 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+Always use proper and full method names 
+Always use proper component names do not write shortcuts 
+Always use clean code practices 
+Always use Enums where required 
+Always use type instead of kind
+Always use proper makrup style by svelte 
+Always use methods for logging 
+Always use proper variables names even using loops 
+
+Always create helper methods instead of making a large method. 
