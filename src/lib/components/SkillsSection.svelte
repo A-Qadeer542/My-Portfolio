@@ -131,7 +131,7 @@
   padding: 2rem 1.5rem 1.5rem 1.5rem;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   transition: box-shadow 0.2s, transform 0.2s;
   cursor: pointer;
 }
@@ -142,12 +142,13 @@
 .skill-icon {
   font-size: 2.2rem;
   margin-bottom: 1rem;
+  margin-left: 0;
 }
 .skill-card h2 {
   color: #0a192f;
   font-size: 1.3rem;
   margin-bottom: 1rem;
-  text-align: center;
+  text-align: left;
 }
 .skill-card ul {
   list-style: disc inside;
