@@ -38,6 +38,15 @@
   align-items: flex-start;
   cursor: pointer;
 }
+@media (max-width: 600px) {
+  .project-card {
+    min-width: 0;
+    max-width: 100%;
+    min-height: 495px;
+    max-height: 495px;
+    padding: 1rem;
+  }
+}
 .project-card:hover {
   transform: scale(1.04) translateY(-4px);
 }
