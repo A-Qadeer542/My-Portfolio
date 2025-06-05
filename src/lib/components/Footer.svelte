@@ -49,6 +49,8 @@
   display: flex;
   gap: 2.5rem;
   margin-bottom: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .footer-link {
   display: flex;
@@ -74,5 +76,19 @@
   color: #8892b0;
   font-size: 0.95rem;
   margin-top: 0.5rem;
+}
+
+@media (max-width: 900px) {
+  .footer-links {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2rem;
+    width: 100%;
+  }
+  .main-footer {
+    width: 100vw;
+    margin-left: -16px;
+    box-sizing: border-box;
+  }
 }
 </style> 
