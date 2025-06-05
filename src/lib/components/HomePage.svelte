@@ -59,7 +59,7 @@
     
     {
         imageUrl: '/tkhelse.jpg',
-        title: 'Petrel',
+        title: 'tkhelse',
         description: 'Digital Invoicing System to send reminders to patients and remittances to doctors.',
         link: 'http://tkhelse.no/'
     }
