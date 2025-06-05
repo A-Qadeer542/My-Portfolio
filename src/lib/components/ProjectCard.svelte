@@ -42,8 +42,8 @@
   .project-card {
     min-width: 0;
     max-width: 100%;
-    min-height: 480px;
-    max-height: 480px;
+    min-height: 380px;
+    max-height: 380px;
     padding: 1rem;
   }
 }
