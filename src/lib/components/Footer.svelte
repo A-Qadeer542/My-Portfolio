@@ -34,7 +34,7 @@
   color: #64ffda;
   padding: 2rem 0 1rem 0;
   box-shadow: 0 -2px 16px rgba(0,0,0,0.04);
-  width: 100vw;
+  width: 100%;
   margin-top: 3rem;
   position: static;
 }
@@ -86,9 +86,9 @@
     width: 100%;
   }
   .main-footer {
-    width: 100vw;
-    margin-left: -16px;
+    width: 100%;
     box-sizing: border-box;
+    margin-left: 0;
   }
 }
 </style> 

@@ -7,7 +7,6 @@
 </script>
 
 <nav>
-  <!-- Desktop Menu-->
   <ul class="desktop-menu">
     <li>
       <a href="/">
@@ -28,8 +27,6 @@
       </a>
     </li>
   </ul>
-
-  <!-- Hamburger Button (always visible on mobile) -->
   <button class="hamburger" on:click={toggleMenu} aria-label="Open menu">
     <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#64ffda" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <line x1="3" y1="6" x2="21" y2="6"/>
@@ -37,14 +34,13 @@
       <line x1="3" y1="18" x2="21" y2="18"/>
     </svg>
   </button>
-
   {#if menuOpen}
     <div
       class="mobile-menu-overlay"
       role="dialog"
       tabindex="0"
       on:keydown={(e) => {
-        if (e.key === 'Escape') menuOpen = false; // Only Escape for overlay close
+        if (e.key === 'Escape') menuOpen = false;
       }}
     >
       <div class="mobile-menu-wrapper" role="presentation" tabindex="-1" on:keydown={(e) => { if (e.key === 'Escape') menuOpen = false; }}>
@@ -81,7 +77,6 @@ nav {
   justify-content: space-between; 
   align-items: center;
   position: relative; 
-  width: 100vw; 
 }
 
 /* Desktop Menu */
@@ -150,12 +145,12 @@ li a:hover svg {
     position: fixed;
     inset: 0; 
     width: 100vw;
-    height: 100vh; 
-    background: #0a192f; /* Solid background, no transparency */
+    height: 100vh;
+    background: #0a192f;
     z-index: 9999;
-    display: flex; 
-    align-items: center; 
-    justify-content: center; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
     pointer-events: auto;
   }
 
